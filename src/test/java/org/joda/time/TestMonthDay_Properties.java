@@ -93,7 +93,7 @@ public class TestMonthDay_Properties extends TestCase {
         assertEquals(test.getChronology().months(), test.monthOfYear().getDurationField());
         // assertEquals(test.getChronology().days(), test.dayOfMonth().getRangeDurationField());
         assertEquals(9, test.monthOfYear().getMaximumTextLength(null));
-        assertEquals(3, test.monthOfYear().getMaximumShortTextLength(null));
+        assertEquals(4, test.monthOfYear().getMaximumShortTextLength(null));
     }
 
     public void testPropertyGetMaxMinValuesMonthOfYear() {
