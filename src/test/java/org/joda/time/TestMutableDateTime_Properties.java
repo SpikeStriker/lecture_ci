@@ -242,7 +242,7 @@ public class TestMutableDateTime_Properties extends TestCase {
         assertEquals(test.getChronology().months(), test.monthOfYear().getDurationField());
         assertEquals(test.getChronology().years(), test.monthOfYear().getRangeDurationField());
         assertEquals(9, test.monthOfYear().getMaximumTextLength(null));
-        assertEquals(3, test.monthOfYear().getMaximumShortTextLength(null));
+        assertEquals(4, test.monthOfYear().getMaximumShortTextLength(null));
         test = new MutableDateTime(2004, 7, 9, 0, 0, 0, 0);
         assertEquals("juillet", test.monthOfYear().getAsText(Locale.FRENCH));
         assertEquals("juil.", test.monthOfYear().getAsShortText(Locale.FRENCH));

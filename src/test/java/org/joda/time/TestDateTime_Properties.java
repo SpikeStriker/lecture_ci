@@ -356,7 +356,7 @@ public class TestDateTime_Properties extends TestCase {
         assertEquals(test.getChronology().months(), test.monthOfYear().getDurationField());
         assertEquals(test.getChronology().years(), test.monthOfYear().getRangeDurationField());
         assertEquals(9, test.monthOfYear().getMaximumTextLength(null));
-        assertEquals(3, test.monthOfYear().getMaximumShortTextLength(null));
+        assertEquals(4, test.monthOfYear().getMaximumShortTextLength(null));
         test = new DateTime(2004, 7, 9, 0, 0, 0, 0);
         assertEquals("juillet", test.monthOfYear().getAsText(Locale.FRENCH));
         assertEquals("juillet", test.monthOfYear().getField().getAsText(7, Locale.FRENCH));
