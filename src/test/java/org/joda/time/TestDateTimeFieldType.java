@@ -285,7 +285,7 @@ public class TestDateTimeFieldType extends TestCase {
     public void test_other() throws Exception {
         assertEquals(2, DateTimeFieldType.class.getDeclaredClasses().length);
         Class cls = DateTimeFieldType.class.getDeclaredClasses()[0];
-        assertEquals(2, cls.getDeclaredConstructors().length);
+        assertEquals(1, cls.getDeclaredConstructors().length);
         Constructor con = cls.getDeclaredConstructors()[0];
         Object[] params = new Object[] {
             "other", new Byte((byte) 128), DurationFieldType.hours(), DurationFieldType.months()};
