@@ -341,6 +341,11 @@
 		<!-- define build -->
 		<plugins>
 			<plugin>
+				<groupId>org.pitest</groupId>
+    			<artifactId>pitest-maven</artifactId>
+				<version>LATEST</version>
+			</plugin>
+			<plugin>
 				<groupId>org.openclover</groupId>
 				<artifactId>clover-maven-plugin</artifactId>
 				<configuration>
