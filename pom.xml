@@ -564,7 +564,7 @@
 				<configuration>
 					<threads>8</threads>
 					<verbose>true</verbose>
-					<mutationUnitSize>2</mutationUnitSize>
+					<mutationUnitSize>1</mutationUnitSize>
 				</configuration>
 			</plugin>
 		</plugins>
