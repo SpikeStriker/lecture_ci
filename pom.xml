@@ -561,6 +561,11 @@
 				<groupId>org.pitest</groupId>
     			<artifactId>pitest-maven</artifactId>
 				<version>1.16.1</version>
+				<configuration>
+					<threads>8</threads>
+					<verbose>true</verbose>
+					<mutationUnitSize>2</mutationUnitSize>
+				</configuration>
 			</plugin>
 		</plugins>
 		<!-- Manage plugin versions -->
