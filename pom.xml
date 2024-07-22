@@ -565,6 +565,9 @@
 					<threads>8</threads>
 					<verbose>true</verbose>
 					<mutationUnitSize>1</mutationUnitSize>
+					<mutationThreshold>70</mutationThreshold>
+					<coverageThreshold>70</coverageThreshold>
+					<timestampedReports>True</timestampedReports>
 				</configuration>
 			</plugin>
 		</plugins>
