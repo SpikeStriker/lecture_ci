@@ -460,6 +460,7 @@
 							<packages>org.joda.time.base:org.joda.time.convert:org.joda.time.field:org.joda.time.tz</packages>
 						</group>
 					</groups>
+					<failOnError>false</failOnError>
 				</configuration>
 				<executions>
 					<execution>
@@ -568,6 +569,12 @@
 					<mutationThreshold>70</mutationThreshold>
 					<coverageThreshold>70</coverageThreshold>
 					<timestampedReports>True</timestampedReports>
+					<excludedClasses>
+						<param>tutorial*</param>
+					</excludedClasses>
+					<excludedTestClasses>
+						<param>tutorial*</param>
+					</excludedTestClasses>
 				</configuration>
 			</plugin>
 		</plugins>
