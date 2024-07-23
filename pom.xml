@@ -572,8 +572,8 @@
 					<coverageThreshold>70</coverageThreshold>
 					<timestampedReports>True</timestampedReports>
 					<outputFormats>
-						<value>HTML</value>
-						<value>XML</value>
+						<param>HTML</param>
+						<param>XML</param>
 					</outputFormats>					
 					<excludedClasses>
 						<param>tutorial*</param>
