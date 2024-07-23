@@ -571,6 +571,10 @@
 					<mutationThreshold>70</mutationThreshold>
 					<coverageThreshold>70</coverageThreshold>
 					<timestampedReports>True</timestampedReports>
+					<outputFormats>
+						<param>HTML</param>
+						<param>XML</param>
+					</outputFormats>					
 					<excludedClasses>
 						<param>tutorial*</param>
 					</excludedClasses>
