@@ -563,12 +563,10 @@
 			<plugin>
 				<groupId>org.pitest</groupId>
     			<artifactId>pitest-maven</artifactId>
-				<version>1.7.5</version>
 				<dependencies>
 					<dependency>
 						<groupId>org.pitest</groupId>
 						<artifactId>pitest-junit5-plugin</artifactId>
-						<version>0.15</version>
 					</dependency>
 				</dependencies>
 				<configuration>
@@ -819,7 +817,6 @@
 			<plugin>
 				<groupId>org.pitest</groupId>
 				<artifactId>pitest-maven</artifactId>
-				<version>1.7.5</version>
 				<configuration>
 					<skip>false</skip>
 					<reportsDirectory>${project.build.directory}/pit-output-dir</reportsDirectory>
