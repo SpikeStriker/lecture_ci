@@ -564,6 +564,13 @@
 				<groupId>org.pitest</groupId>
     			<artifactId>pitest-maven</artifactId>
 				<version>1.16.1</version>
+				<dependencies>
+					<dependency>
+						<groupId>org.pitest</groupId>
+						<artifactId>pitest-junit5-plugin</artifactId>
+						<version>1.2.1</version>
+					</dependency>
+				</dependencies>
 				<configuration>
 					<threads>8</threads>
 					<verbose>true</verbose>
@@ -813,13 +820,6 @@
 				<groupId>org.pitest</groupId>
 				<artifactId>pitest-maven</artifactId>
 				<version>1.16.1</version>
-				<dependencies>
-					<dependency>
-						<groupId>org.pitest</groupId>
-						<artifactId>pitest-junit5-plugin</artifactId>
-						<version>1.2.1</version>
-					</dependency>
-				</dependencies>
 				<configuration>
 					<skip>false</skip>
 					<reportsDirectory>${project.build.directory}/pit-output-dir</reportsDirectory>
